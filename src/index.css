@@ -1,1 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Julius Sans One');
 
+* {
+    background-color: darkslateblue;
+    color: honeydew;
+    font-family: Arial;
+}
+
+table {
+    border-collapse: collapse;
+} 
+
+th, td {
+    padding-right: 15px;
+    background-color: slateblue;
+}
+
+button {
+    border: none;
+}
+
+form {
+    background-color: slateblue;
+}
+
+input {
+    margin-bottom: 15px;
+    margin-left: 15px;
+    border: none;
+    background-color: darkslateblue;
+}

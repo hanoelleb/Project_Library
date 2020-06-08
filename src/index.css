@@ -4,6 +4,7 @@
     background-color: darkslateblue;
     color: honeydew;
     font-family: Arial;
+    border-radius: 15px;
 }
 
 table {
@@ -11,6 +12,7 @@ table {
 } 
 
 th, td {
+    border-radius: 0px;
     padding-right: 15px;
     background-color: slateblue;
 }
@@ -19,13 +21,41 @@ button {
     border: none;
 }
 
+.holdDelete {
+    background-color: transparent;
+}
+
+.delBtn {
+    background-color: transparent;
+}
+
 form {
+    margin-top: 30px;
+    padding-top: 15px;
     background-color: slateblue;
+    width: 35%;
+    border: 1px solid honeydew;
+}
+
+.formField {
+    background-color: slateblue;
+    border-radius: 0px;
+}
+
+.close {
+    float: right;
 }
 
 input {
     margin-bottom: 15px;
     margin-left: 15px;
     border: none;
-    background-color: darkslateblue;
+    border-radius: 0px;
+    background-color: honeydew;
+    color: black;
+}
+
+label {
+    padding-left: 20px;
+    background-color: slateblue;
 }

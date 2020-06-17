@@ -106,6 +106,7 @@ class MediaTable extends React.Component {
                             {tableHeaders.map(header => ( 
                                 <th key={header}>{header}</th>
                             ))}
+		            <th></th>
 		        </tr>
                     </thead>
 		    <tbody>
